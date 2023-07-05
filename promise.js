@@ -90,7 +90,7 @@ one
 
 
 const starbucks = (coffeeName) => {
-    return new Promise(resolve, reject => {
+    return new Promise((resolve, reject) => {
         if (coffeeName === '아메리카노') {
             resolve('아메리카노 한잔 입니다.')
         } else {
