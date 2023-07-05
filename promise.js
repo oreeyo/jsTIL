@@ -98,3 +98,8 @@ const starbucks = (coffeeName) => {
         }
     })
 }
+
+starbucks('coldBrew')
+    .then((res) => console.log(res))
+    .catch((rej) => console.log(rej))
+    .finally(() => console.log("감사합니다."))
